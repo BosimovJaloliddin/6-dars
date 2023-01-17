@@ -1,37 +1,5 @@
 .background-img {
-  background: url(../image/color.jpg);
   height: 500px;
-}
-.background-img hr {
-  opacity: 0.6;
-}
-.navigation {
-  display: flex;
-  justify-content: center;
-  justify-content: space-evenly;
-}
-.navigation-item {
-  display: inline-block;
-  padding: 2rem;
-}
-.navigation-item a {
-  text-transform: uppercase;
-  text-decoration: none;
-  color: #fff;
-}
-.navigation-item a:hover {
-  color: rgba(252, 12, 12, 0.5);
-}
-.header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.header h1 {
-  font-size: 3.5rem;
-  font-weight: 600;
-  text-transform: capitalize;
-  color: #fff;
 }
 .header input {
   width: 280px;
@@ -53,7 +21,8 @@
   font-size: 2rem;
 }
 .tours-section h1 {
-  font-size: 2rem;
+  font-family: BOOTERFF;
+  font-size: 2.5rem;
   font-weight: 500;
   text-align: center;
   text-transform: uppercase;
@@ -84,8 +53,11 @@
   height: 30px;
   margin-top: 0.3rem;
   color: #fff;
-  border: 1px solid rgba(80, 222, 251, 0.5);
+  border: 1px solid rgba(63, 118, 129, 0.5);
   border-radius: 7px;
-  background-color: rgba(80, 222, 251, 0.5);
+  background-color: rgba(11, 75, 88, 0.5);
   text-transform: uppercase;
+}
+.tours-info_item button:hover {
+  background-color: rgba(11, 69, 205, 1);
 }
