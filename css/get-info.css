@@ -50,7 +50,7 @@
   border-radius: 20px;
   padding-left: 1rem;
 }
-.info-item a {
+.add-button {
   width: 80px;
   text-align: center;
   font-size: 1.2rem;
@@ -62,7 +62,7 @@
   text-transform: capitalize;
   color: #222;
 }
-.info-item a:hover {
+.add-button:hover {
   background-color: rgba(26, 171, 164, 0.8);
   border: 2px solid rgba(26, 171, 164, 0.8);
   color: #fff;
