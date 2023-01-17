@@ -97,7 +97,9 @@ body {
 }
 .information button:hover {
   color: rgb(223, 231, 233);
-  background-color: rgb(144, 0, 0);
+  background-color: rgb(8, 181, 69);
+  border: none;
+  box-shadow: 0 0 5px 2px #888;
 }
 .information p {
   margin-left: 13.8rem;
