@@ -1,0 +1,91 @@
+.background-img {
+  background: url(../image/color.jpg);
+  height: 500px;
+}
+.background-img hr {
+  opacity: 0.6;
+}
+.navigation {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+.navigation-item {
+  display: inline-block;
+  padding: 2rem;
+}
+.navigation-item a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+}
+.navigation-item a:hover {
+  color: rgba(252, 12, 12, 0.5);
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header h1 {
+  font-size: 3.5rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #fff;
+}
+.header input {
+  width: 280px;
+  height: 40px;
+  border: 3px solid rgba(119, 196, 212, 1);
+  border-radius: 7px;
+  opacity: 0.4;
+  margin-top: 1rem;
+}
+.header-button {
+  width: 100px;
+  height: 100px;
+  opacity: 0.7;
+  border-radius: 100px;
+  border: 7px solid rgba(119, 196, 212, 1);
+  margin: 2rem;
+}
+.header-button i {
+  font-size: 2rem;
+}
+.tours-section h1 {
+  font-size: 2rem;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+}
+.tours-section hr {
+  width: 80%;
+}
+.tours-info_item {
+  display: flex;
+  justify-content: space-evenly;
+  vertical-align: middle;
+}
+.tours-info_item h4 {
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.tours-info_item p {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.5);
+  text-transform: uppercase;
+}
+.tours-info_item button {
+  font-size: 0.7rem;
+  font-weight: 700;
+  width: 120px;
+  height: 30px;
+  margin-top: 0.3rem;
+  color: #fff;
+  border: 1px solid rgba(80, 222, 251, 0.5);
+  border-radius: 7px;
+  background-color: rgba(80, 222, 251, 0.5);
+  text-transform: uppercase;
+}

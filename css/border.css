@@ -1,0 +1,77 @@
+.border {
+  padding: 4rem;
+}
+.border-item {
+  display: inline-block;
+  text-align: center;
+  width: 140px;
+  height: 140px;
+  margin: 2rem;
+  box-sizing: border-box;
+}
+.pink-one {
+  border-top-left-radius: 50px;
+  background-color: rgb(253, 145, 183);
+}
+.pink-two {
+  border-top-right-radius: 50px;
+  background-color: rgb(253, 145, 183);
+}
+.pink-there {
+  border-bottom-right-radius: 50px;
+  background-color: rgb(253, 145, 183);
+}
+.pink-four {
+  border-bottom-left-radius: 50px;
+  background-color: rgb(253, 145, 183);
+}
+.blue-one {
+  background-color: rgb(112, 206, 250);
+}
+.blue-two {
+  border-radius: 15px;
+  background-color: rgb(112, 206, 250);
+}
+.blue-there {
+  border-radius: 40px;
+  background-color: rgb(112, 206, 250);
+}
+.blue-four {
+  border-radius: 100px;
+  background-color: rgb(112, 206, 250);
+}
+.violet-one {
+  background-color: rgb(215, 129, 236);
+}
+.violet-two {
+  border-radius: 15px;
+  background-color: rgb(215, 129, 236);
+}
+.violet-there {
+  border-radius: 40px;
+  background-color: rgb(215, 129, 236);
+}
+.violet-four {
+  border-radius: 100px;
+  background-color: rgb(215, 129, 236);
+}
+.green-one {
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: rgb(88, 218, 100);
+}
+.green-two {
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  background-color: rgb(88, 218, 100);
+}
+.green-there {
+  border-top-left-radius: 70px;
+  border-bottom-right-radius: 70px;
+  background-color: rgb(88, 218, 100);
+}
+.green-four {
+  border-top-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  background-color: rgb(88, 218, 100);
+}
